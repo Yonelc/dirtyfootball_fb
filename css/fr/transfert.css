@@ -1,0 +1,384 @@
+/* CSS Document */
+
+#rotate{
+
+    margin-top:10px;
+    margin-left:5px;
+}
+
+
+#transfert_table{
+    width:100%;
+}
+
+#transfert_table a{
+    color:#626262;
+}
+
+#transfert_center table{
+    font-size:12px;
+    color:#626262;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:10px;
+    border-collapse: collapse;
+    /*padding:5px;*/
+}
+
+#transfert_center table th{
+    /*padding:5px;*/
+    height:30px;
+    background-image:url(../../images/fr/global/tab_top.jpg);
+    background-repeat: repeat-x;
+    color:#ffffff;
+}
+
+#transfert_center table td{
+   text-align:center;
+   padding-top:5px;
+
+   padding-bottom:5px;
+   color:#626262;
+}
+
+#transfert_center table tr{
+   /*background-color:#faf8b8;*/
+}
+
+#pagination{
+    background-image:url(../../images/fr/global/tab_top.jpg);
+    background-repeat: repeat-x;
+    color:#ffffff;    
+}
+
+#pagination a{
+    color:#ffffff;
+}
+
+
+#research{
+   
+    margin-left:40px;
+    width:620px;
+    height:83px;
+    background-image:url(../../images/fr/transferts/search.png);
+
+}
+
+#form_research{
+
+    /*padding:5px;*/
+    font-weight:bold;
+    font-size:12px;
+    color:#626262;
+
+}
+
+#form_research input,select{
+
+    margin-top:15px;
+
+}
+
+#criteres{
+padding-left:20px;
+padding-top:10px;
+}
+
+#research_submit{
+height:30px;
+margin-top:-10px;
+}
+
+.input_invisible {
+    border: solid black 0px;
+    background-color: transparent;
+}
+
+
+#research_ok{
+    margin-top:-15px;
+    margin-left:250px;
+    
+    background-image:url(../../images/fr/transferts/bouton_rechercher.png);
+    width:100px;
+    height:20px;
+    cursor: pointer;
+}
+
+.att{
+    color:#ffffff;
+    font-weight:bold;
+    background-image:url(../../images/fr/global/etoile_rouge.png);
+    width:35px;
+    height:21px;
+    text-align: center;
+    padding-top:12px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.mil{
+    color:#ffffff;
+    font-weight:bold;
+    background-image:url(../../images/fr/global/etoile_orange.png);
+    width:35px;
+    height:21px;
+    text-align: center;
+    padding-top:12px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.def{
+    color:#ffffff;
+    font-weight:bold;
+    background-image:url(../../images/fr/global/etoile_bleue.png);
+    width:35px;
+    height:21px;
+    text-align: center;
+    padding-top:12px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.gb{
+    color:#ffffff;
+    font-weight:bold;
+    background-image:url(../../images/fr/global/etoile_verte.png);
+    width:35px;
+    height:21px;
+    text-align: center;
+    padding-top:12px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+#image_player
+{
+   float:left;
+   background-image:url(../../images/fr/players/buste.png);
+   width:150px;
+   height:117px;
+   margin-top: 15px;
+}
+
+#experience_stats 
+{
+    float:left;
+    border-collapse:collapse;
+    width:230px;
+    margin-top:0px;
+    color:#626262;
+    font-weight:bold;
+}
+
+#player_profil
+{
+    overflow:auto;
+}
+
+#tab_player_profil
+{
+    border-collapse:collapse;
+    clear:both;
+    color:#626262;
+    font-weight:bold;
+    width:380px;
+}
+
+.col_title{
+    width:190px;
+    padding-left:5px;
+}
+
+.col_data{
+    width:190px;
+    padding-left:5px;
+}
+
+.row_pair
+{
+    background-color:#d5d5d5;
+    height:20px;
+
+}
+
+.row_impair
+{
+    background-color:#eeeeee;
+    height:20px;
+}
+
+#bloc_left
+{
+    float:left;
+}
+
+#caracteristiques{
+    width:380px;
+    height:30px;
+    background-image:url(../../images/fr/transferts/top_carac.png);
+}
+
+#payer_value{
+    margin-bottom: 0px;
+}
+
+#bloc_right
+{
+
+    float:right;
+    width:300px;
+    margin-left:0px;
+}
+
+#player_offer_top
+{
+    margin-left:0px;
+    width:300px;
+    height:42px;
+    background-image:url(../../images/fr/transferts/offer_top.png);
+}
+
+#player_offer_center
+{
+    margin-left:0px;
+    width:300px;
+    /*height:30px;*/
+    background-repeat:repeat-y;
+    background-image:url(../../images/fr/transferts/offer_center.png);
+}
+
+#player_offer_bottom
+{
+    width:300px;
+    height:27px;
+    background-image:url(../../images/fr/transferts/offer_bottom.png);
+    margin-left:0px;
+}
+
+#teams_offers
+{
+    margin-left:20px;
+    border-collapse: collapse;
+    font-size:12px;
+    width:190px;
+    color:#626262;
+    font-weight:bold;
+}
+/*
+.team_name{
+    width:50px;
+}*/
+
+#offer{
+    width:380px;
+    height:50px;
+    background-image:url(../../images/fr/transferts/bottom_carac.png);
+}
+
+#value_logo{
+    margin-bottom:-5px;
+}
+
+#tab_offers_sent
+{
+    border-collapse: collapse;
+    width:700px;
+}
+
+#tab_offers_sent a
+{
+    color:#626262;
+}
+
+#tab_offers_sent th
+{
+    /*padding:5px;*/
+    height:30px;
+    background-image:url(../../images/fr/global/tab_top.jpg);
+    background-repeat: repeat-x;
+    color:#ffffff;
+}
+
+#tab_offers_sent td
+{
+    text-align: center;
+    padding:5px;
+}
+
+#tab_offers_received
+{
+    border-collapse: collapse;
+    width:700px;
+}
+
+#tab_offers_received a
+{
+    color:#626262;
+}
+
+#tab_offers_received th
+{
+    /*padding:5px;*/
+    height:30px;
+    background-image:url(../../images/fr/global/tab_top.jpg);
+    background-repeat: repeat-x;
+    color:#ffffff;
+}
+
+#tab_offers_received td
+{
+    padding:5px;
+    text-align: center;
+}
+
+.buy_match_button{
+    margin-top: 8px;
+    background-image:url(../../images/fr/corruption/bouton_proposer.png);
+    width:100px;
+    height:20px;
+    margin-left: 30px;
+    cursor:pointer;
+}
+
+.accept_offer_button{
+    margin-top: 8px;
+    background-image:url(../../images/fr/corruption/bouton_accepter.png);
+    width:100px;
+    height:20px;
+    margin-left:0px;
+    cursor:pointer;
+}
+
+.refuse_offer_button{
+    margin-top: 8px;
+    background-image:url(../../images/fr/corruption/bouton_refuser.png);
+    width:100px;
+    height:20px;
+    margin-left: 0px;
+    cursor:pointer;
+}
+
+.cancel_offer_button{
+    margin-top: 8px;
+    background-image:url(../../images/fr/transferts/bouton_annuler.png);
+    width:100px;
+    height:20px;
+    margin-left: 10px;
+    cursor:pointer;
+}
+
+.modify_price_button{
+     margin-top: 8px;
+    background-image:url(../../images/fr/players/bouton_modifier.png);
+    width:100px;
+    height:20px;
+    margin-left: 10px;
+    cursor:pointer;
+}
+
+#club a{
+    color:#626262;
+}

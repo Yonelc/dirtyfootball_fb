@@ -1,0 +1,32 @@
+#header_live_match
+{
+   width:800px;
+   margin-left: auto;
+   margin-right:auto;
+   text-align: center;
+   margin-top:30px;
+}
+
+#comment
+{
+   width:500px;
+   font-size: 12px;
+   margin-left: auto;
+   margin-right:auto;
+   margin-top:30px;
+}
+
+.actions
+{
+    margin-bottom:10px;
+    text-align: justify;
+    
+    padding-bottom:10px;
+}
+
+#live_action
+{
+    margin-top:10px;
+    text-align: justify;
+    background-color: #dffaff;
+}

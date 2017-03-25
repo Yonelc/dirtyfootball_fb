@@ -1,0 +1,355 @@
+/* CSS Document */
+*{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+margin:0;
+padding:0;
+}
+
+body{
+    background-image:url(../../images/eng/global/pelouse.jpg);
+    background-repeat:repeat;
+    /*background-color:#151515;*/
+}
+
+
+#conteneur{
+
+    width:1024px;
+    margin-left:auto;
+    margin-right:auto;
+    min-height:600px;
+    overflow:auto;
+
+}
+
+#header{
+    width:1024px;
+    height:188px;
+    background-image:url(../../images/eng/global/header.png);
+    margin-bottom:-10px;
+}
+
+#general_access{
+
+    float:right;
+    margin-top:150px;
+}
+
+#general_access li{
+
+    float:left;
+    list-style:none;
+    margin-left:10px;
+}
+
+#general_access li:hover{
+    margin-top:1px;
+}
+
+#top_frame{
+width:1024px;
+height:20px;
+background-image:url(../../images/eng/global/top_frame.png);
+}
+
+.center_frame{
+width:1024px;
+background-repeat:repeat-y;
+background-image:url(../../images/eng/global/center_frame.png);
+overflow:auto;
+}
+
+#bottom_frame{
+width:1024px;
+height:20px;
+background-image:url(../../images/eng/global/bottom_frame.png);
+}
+
+#banner{
+width:980px;
+height:147px;
+margin-left:auto;
+margin-right:auto;
+background-image:url(../../images/eng/global/banner.jpg);
+}
+
+/* Information*/
+#information{
+float:left;
+width:250px;
+height:147px;
+margin-left:22px;
+margin-top:1px;
+background-color:#fefdbe;
+border:solid 1px #eae98e;
+}
+
+#infos_button{
+width:200px;
+height:50px;
+margin-left:auto;
+margin-right:auto;
+margin-top:35px;
+background-image:url(../../images/eng/global/infos.png);
+border:none;
+margin-left:25px;
+}
+
+#infos_button:hover{
+background-image:url(../../images/eng/global/infos_hover.png);
+}
+
+#information p{
+color:#c99a5f;
+font-size:12px;
+text-align:center;
+margin-top:5px;
+}
+
+/* Registration*/
+
+#registration{
+float:left;
+width:250px;
+height:147px;
+margin-left:1px;
+margin-top:1px;
+background-color:#e1ffbf;
+border:solid 1px #c8f792;
+}
+
+#registration_button{
+width:200px;
+height:50px;
+margin-left:25px;
+margin-top:35px;
+border:none;
+cursor:pointer;
+
+}
+
+#registration_button:hover{
+background-image:url(../../images/eng/global/inscription_hover.png);
+}
+
+#registration p{
+color:#68a677;
+font-size:12px;
+text-align:center;
+margin-top:5px;
+}
+
+/* Connection*/
+#connexion{
+    float:left;
+    background-color:#e7f5ff;
+    background-image:url(../../images/eng/global/bg_connexion.png);
+    width:472px;
+    height:147px;
+    margin-top:1px;
+    margin-left:1px;
+   border:solid 1px #b5d4eb;
+   
+}
+
+#connexion p{
+    color:#94aed5;
+    
+    font-weight:bold;
+    margin-top:20px;
+    margin-left:50px;
+}
+
+#connexion hr{
+    color:#94aed5;
+    width:380px;
+    background-color: #94aed5;
+    border:none;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#connexion ul{
+    margin-top:10px;
+    margin-left:60px;
+}
+
+#connexion ul li{
+    float:left;
+    list-style:none;
+    margin-left:10px;
+}
+
+#login{
+    
+    width:472px;
+}
+
+label{
+    font-size:12px;
+    font-weight:bold;
+    color:#94aed5;
+}
+
+#connect_ok{
+    margin-top:10px;
+    margin-left:50px;
+    background-image:url(../../images/eng/global/bouton_connexion.png);
+    width:120px;
+    height:30px;
+    cursor: pointer;
+}
+
+#connect_ok:hover{
+
+    background-image:url(../../images/eng/global/bouton_connexion_hover.png);
+
+}
+
+.input_invisible{
+    border:none;
+}
+
+#pwd_forgotten{
+    font-size:12px;
+    color:#94aed5;
+    margin-left:70px;
+}
+
+/* bottom information */
+
+#bottom_information{
+    width:1024px;
+    padding-top:20px;
+    clear:both;
+}
+
+#bottom_information hr{
+    margin-bottom:10px;
+    color:#595978;
+    background-color:#595978;
+    border:none;
+    height:1px;
+}
+
+ul li{
+    list-style:none;
+}
+
+/* toplist */
+
+#toplist{
+    float:left;
+    margin-left:45px;
+}
+
+#toplist_title{
+    color:#595978;
+    font-size:16px;
+    font-weight:500;
+    margin-bottom:10px;
+    
+}
+
+
+
+.toplist_element{
+    font-size:14px;
+    color:#3b8ea7;
+    margin-bottom:5px;
+    
+}
+
+/* news */
+
+#news{
+    float:left;
+    margin-left:30px;
+}
+
+#news_title{
+    color:#595978;
+    font-size:16px;
+    font-weight:500;
+    margin-bottom:10px;
+    
+}
+
+.news_img{
+    float:left;
+    background-image:url(../../images/eng/global/news.png);
+    width:35px;
+    height:35px;
+    
+}
+
+.news_element{
+    font-size:14px;
+    color:#3b8ea7;
+    margin-bottom:5px;
+    clear:both;
+    border-bottom:1px dotted #3b8ea7;
+}
+
+.news_element p{
+    padding-top:7px;
+}
+
+/* trailer */
+
+#trailer{
+    float:left;
+    margin-left:30px;
+}
+
+#trailer_title{
+    color:#595978;
+    font-size:16px;
+    font-weight:500;
+    margin-bottom:10px;
+    
+}
+
+.trailer_element{
+    font-size:14px;
+    color:#3b8ea7;
+    margin-bottom:5px;
+    clear:both;
+    border-bottom:1px dotted #3b8ea7;
+}
+
+#email
+{
+    background-color: #deece2;
+}
+
+#password
+{
+    background-color: #deece2;
+}
+
+#footer{
+    background-image:url(../../images/eng/global/bottom_frame.png);
+    width:760px;
+    height:63px;
+}
+
+#footer_links{
+    padding-top:15px;
+    color:#626262;
+    font-size:10px;
+    width:200px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#footer_links a{
+    color:#626262;
+    font-size:10px;
+    font-weight:bold;
+}
+
+#social_share{
+
+    display:none;
+}

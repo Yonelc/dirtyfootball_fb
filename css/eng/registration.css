@@ -1,0 +1,304 @@
+/* CSS Document */
+*{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+margin:0;
+padding:0;
+}
+
+body{
+    background-image:url(../../images/eng/global/pelouse.jpg);
+    background-repeat:repeat;
+    /*background-color:#151515;*/
+}
+
+
+#conteneur{
+
+    width:1024px;
+    margin-left:auto;
+    margin-right:auto;
+    min-height:600px;
+    overflow:auto;
+
+}
+
+#header{
+    width:1024px;
+    height:150px;
+    background-image:url(../../images/eng/global/header.png);
+}
+
+#general_access{
+
+    float:right;
+    margin-top:120px;
+}
+
+#general_access li{
+
+    float:left;
+    list-style:none;
+    margin-left:10px;
+}
+
+#general_access li:hover{
+    margin-top:1px;
+}
+
+#top_frame{
+width:1024px;
+height:20px;
+background-image:url(../../images/eng/global/top_frame.png);
+}
+
+.center_frame{
+width:1024px;
+background-repeat:repeat-y;
+background-image:url(../../images/eng/global/center_frame.png);
+overflow:auto;
+}
+
+#bottom_frame{
+width:1024px;
+height:20px;
+background-image:url(../../images/eng/global/bottom_frame.png);
+}
+
+#banner{
+width:980px;
+height:147px;
+margin-left:auto;
+margin-right:auto;
+background-image:url(../../images/eng/global/banner.jpg);
+}
+/* bloc left */
+
+#bloc_left{
+    float:left;
+}
+
+#information{
+
+width:250px;
+height:147px;
+margin-left:22px;
+margin-top:1px;
+background-color:#fefdbe;
+border:solid 1px #eae98e;
+}
+
+#infos_button{
+width:200px;
+height:50px;
+margin-left:auto;
+margin-right:auto;
+margin-top:35px;
+background-image:url(../../images/eng/global/infos.png);
+border:none;
+margin-left:25px;
+}
+
+#infos_button:hover{
+background-image:url(../../images/eng/global/infos_hover.png);
+}
+
+#information p{
+color:#c99a5f;
+font-size:12px;
+text-align:center;
+margin-top:5px;
+}
+
+#connexion{
+
+    background-color:#e7f5ff;
+    width:250px;
+    margin-top:1px;
+    margin-left:22px;
+    border:solid 1px #b5d4eb;
+    padding-bottom:5px;
+}
+
+#connexion p{
+    color:#94aed5;
+    font-weight:bold;
+    margin-top:20px;
+    margin-left:20px;
+    font-size:12px;
+}
+
+#connexion hr{
+    color:#94aed5;
+    width:380px;
+    background-color: #94aed5;
+    border:none;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#connexion ul{
+    margin-top:auto;
+    margin-left:30px;
+}
+
+#connexion ul li{
+    float:left;
+    list-style:none;
+    margin-left:10px;
+}
+
+#login{
+    margin-left:20px;
+}
+
+label{
+    font-size:12px;
+    font-weight:bold;
+    color:#94aed5;
+}
+
+#connect_ok{
+    margin-top:10px;
+    margin-bottom:5px;
+    margin-left:40px;
+    background-image:url(../../images/eng/global/bouton_connexion.png);
+    width:120px;
+    height:30px;
+    cursor: pointer;
+}
+
+#connect_ok:hover{
+
+    background-image:url(../../images/eng/global/bouton_connexion_hover.png);
+
+}
+
+.input_invisible{
+    border:none;
+}
+
+#pwd_forgotten{
+    font-size:12px;
+    color:#94aed5;
+    margin-left:35px;
+}
+
+/* formulaire */
+
+#content{
+    float:left;
+    width:720px;
+}
+
+#content h1{
+
+    margin-top:20px;
+    margin-left:20px;
+    color:#559362;
+    font-size:18px;
+    border-bottom:1px solid #559362;
+}
+
+#register_form{
+
+    margin-top:20px;
+    margin-left:150px;
+    
+}
+
+#register_form input{
+
+    background-color:#deece2;
+
+}
+
+#register_form label{
+    color:#559362;
+}
+
+#register_left{
+    float:left;
+}
+
+#register_right{
+    float:left;
+    margin-left:50px;
+}
+
+#register_bottom{
+    clear:both;
+    margin-left:10px;
+    padding-top:10px;
+}
+
+#register_bottom a{
+    color:#559362;
+}
+
+.inputs{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+#register_ok{
+
+    background-image:url(../../images/eng/global/inscrire.png);
+    width:100px;
+    height:32px;
+    cursor:pointer;
+    margin-left:120px;
+
+}
+
+.input_invisible{
+    border:none;
+}
+
+/* error message*/
+
+#error_message{
+    border: 1px solid red;
+    background-color:#fefd8f;
+    margin-left:20px;
+    margin-top:20px;
+    padding:10px;
+}
+
+#error_message p{
+    font-size:12px;
+    color:red;
+}
+
+#confirm_message{
+    border: 1px solid #c8f792;
+    background-color:#e1ffbf;
+    margin-left:20px;
+    margin-top:20px;
+    padding:10px;
+}
+
+#confirm_message p{
+    font-size:12px;
+    color:#68a677;
+}
+
+#footer{
+    background-image:url(../../images/eng/global/bottom_frame.png);
+    width:760px;
+    height:63px;
+}
+
+#footer_links{
+    padding-top:15px;
+    color:#626262;
+    font-size:10px;
+    width:200px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#footer_links a{
+    color:#626262;
+    font-size:10px;
+    font-weight:bold;
+}

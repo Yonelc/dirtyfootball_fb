@@ -1,0 +1,189 @@
+#rotate{
+
+    margin-top:10px;
+    margin-left:5px;
+}
+
+#stadium_frame{
+    width:650px;
+    overflow: auto;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#formation_frame{
+    width:650px;
+    overflow: auto;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#merchandising_frame{
+    width:650px;
+    overflow: auto;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#labs_frame{
+    width:650px;
+    overflow: auto;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.product_money{
+    width:150px;
+    height:250px;
+    background-image:url(../../images/eng/building/product_w.jpg);
+    float:left;
+    margin-right:5px;
+    margin-left:5px;
+    margin-bottom: 15px;
+    font-size:11px;
+}
+
+.product_dirtyGold{
+    width:150px;
+    height:250px;
+    background-image:url(../../images/eng/building/product_d.jpg);
+    float:left;
+    margin-right:5px;
+    margin-left:5px;
+    margin-bottom: 15px;
+    font-size:11px;
+}
+
+.product_friends{
+    width:150px;
+    height:250px;
+    background-image:url(../../images/eng/building/product_f.jpg);
+    float:left;
+    margin-right:5px;
+    margin-left:5px;
+    margin-bottom: 15px;
+    font-size:11px;
+}
+
+.title{
+    width:130px;
+    height: 30px;
+    text-align:center;
+    color:#ffffff;
+    font-weight:bold;
+    margin-top:13px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.stade_img{
+    margin-left:14px;
+    margin-top:3px;
+}
+
+.price{
+width:100px;
+margin-top: 13px;
+margin-left:30px;
+color:#ffffff;
+font-weight:bold;
+text-align:center;
+}
+
+
+
+.level{
+width:100px;
+margin-top: 13px;
+margin-left:30px;
+color:#ffffff;
+font-weight:bold;
+text-align:center;
+
+}
+
+
+
+.capacity{
+width:100px;
+margin-top: 13px;
+margin-left:30px;
+color:#ffffff;
+font-weight:bold;
+text-align:center;
+
+}
+
+
+.description{
+    width:150px;
+
+}
+
+
+
+.description p{
+    text-align:center;
+    color:#ffffff;
+    font-weight:bold;
+}
+
+.buy_button{
+    margin-top: 8px;
+    background-image:url(../../images/eng/building/bouton_buy.png);
+    width:100px;
+    height:20px;
+    margin-left: 30px;
+    cursor:pointer;
+}
+
+.buy_button:hover{
+    margin-top: 9px;
+}
+
+.sell_button{
+    margin-top: 8px;
+    background-image:url(../../images/eng/building/bouton_vendre.png);
+    width:100px;
+    height:20px;
+    margin-left: 30px;
+    cursor:pointer;
+}
+
+.sell_button:hover{
+    margin-top: 9px;
+}
+
+.get_dirty_gold{
+    margin-top: 8px;
+    background-image:url(../../images/eng/building/bouton_plus_de.png);
+    width:100px;
+    height:20px;
+    margin-left: 30px;
+    cursor:pointer;
+}
+
+.get_dirty_gold:hover{
+    margin-top: 9px;
+
+}
+
+.locked{
+    margin-top: 8px;
+    background-image:url(../../images/eng/building/bouton_locked.png);
+    width:100px;
+    height:20px;
+    margin-left: 30px;
+    cursor:pointer;
+}
+
+.locked:hover{
+    margin-top: 9px;
+
+}
+
+
+.input_invisible {
+    border: solid black 0px;
+    background-color: transparent;
+}

@@ -1,0 +1,865 @@
+#rotate{
+
+    margin-top:10px;
+    margin-left:5px;
+}
+
+#effectif_top
+{
+    width:700px;
+    height:38px;
+    background-image:url(../../images/eng/team/effectif_top.png);
+}
+
+#effectif_center
+{
+    width:700px;
+    background-repeat: repeat-y;
+    /*background-image:url(../images/team/effectif_centre.png);*/
+}
+
+#effectif_center a
+{
+    color:#626262;
+}
+
+#effectif_bottom
+{
+    width:700px;
+    height:38px;
+    background-image:url(../../images/eng/team/effectif_bottom.png);
+}
+
+#effectif table{
+    font-size:12px;
+    color:#000000;
+    margin-left:auto;
+    margin-right:auto;
+    width:700px;
+    margin-bottom:10px;
+    border-collapse: collapse;
+    color:#626262;
+
+
+}
+
+#effectif table a{
+
+    color:#626262;
+
+
+}
+
+#effectif table th{
+    /*padding:5px;*/
+    color:#ffffff;
+    height:30px;
+    background-image:url(../../images/eng/global/tab_top.jpg);
+    background-repeat: repeat-x;
+}
+
+#effectif table td{
+   text-align:center;
+   padding-top:5px;
+   padding-bottom:5px;
+   border-collapse: collapse;
+}
+
+#effectif table tr{
+   /*background-color:#faf8b8;*/
+}
+
+
+#tactic{
+    overflow:auto;
+}
+
+#experience{
+    
+    width:450px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#experience_top{
+    
+    width:450px;
+    height:36px;
+    background-image:url(../../images/eng/team/exp_top.png);
+    margin-left:0px;
+}
+
+#experience_bottom{
+    
+    width:450px;
+    height:20px;
+    background-image:url(../../images/eng/team/exp_bottom.png);
+    margin-left:0px;
+}
+
+#exp_team{
+    
+    overflow: auto;
+    width:450px;
+    margin-left:0px;
+    background-image:url(../../images/eng/team/exp_center.png);
+    background-repeat:repeat-y;
+}
+
+#help_potentiel{
+    background-image:url(../../images/eng/global/help.png);
+    width:32px;
+    height:32px;
+    float:right;
+    margin-right:227px;
+}
+
+/*#exp_team h1,h2{
+    clear:both;
+    margin-top: 5px;
+    margin-bottom:  5px;
+    /*padding-left:20px;*/
+   /* color:#093134;
+    font-weight:bold;
+    font-size:16px;
+}*/
+
+/*#exp_primaire {
+    width:450px;
+    margin-left:0px;
+}*/
+
+#exp_primaire li{
+    float:left;
+    list-style: none;
+    margin-left:10px;
+}
+
+/*#exp_secondaire{
+    width:450px;
+    margin-left:0px;
+}*/
+
+#exp_secondaire li{
+    float:left;
+    list-style: none;
+    margin-left:10px;
+}
+
+#potentiel_primaire{
+    float:left;
+    width:200px;
+    margin-left:15px;
+}
+
+#potentiel_primaire h1
+{
+    font-size:12px;
+    color:#626262;
+    font-weight:bold;
+    text-align: center;
+    width:180px;
+    margin-left:5px;
+}
+
+#potentiel_secondaire{
+    float:left;
+    width:200px;
+    margin-left:15px;
+}
+
+#potentiel_secondaire h2{
+    font-size:12px;
+    color:#626262;
+    font-weight:bold;
+    text-align: center;
+    width:180px;
+    margin-left:7px;
+}
+
+.gb_experience{
+ 
+    color:#ffffff;
+    font-weight:bold;
+    background-image:url(../../images/eng/global/etoile_verte.png);
+    width:35px;
+    height:21px;
+    text-align: center;
+    padding-top:12px;
+}
+
+/*.gb_experience p{
+    color:#FFFFFF;
+    text-align:center;
+    font-weight:bold;
+    padding-top:35px;
+    font-size:14px;
+}*/
+
+.def_experience{
+
+    color:#ffffff;
+    font-weight:bold;
+    background-image:url(../../images/eng/global/etoile_bleue.png);
+    width:35px;
+    height:21px;
+    text-align: center;
+    padding-top:12px;
+}
+
+/*.def_experience p{
+
+    color:#FFFFFF;
+    text-align:center;
+    font-weight:bold;
+    padding-top:35px;
+    font-size:14px;
+}*/
+
+.mill_experience{
+
+    color:#ffffff;
+    font-weight:bold;
+    background-image:url(../../images/eng/global/etoile_orange.png);
+    width:35px;
+    height:21px;
+    text-align: center;
+    padding-top:12px;
+}
+
+/*.mill_experience p{
+    color:#FFFFFF;
+    text-align:center;
+    font-weight:bold;
+    padding-top:35px;
+    font-size:14px;
+}*/
+
+.att_experience{
+
+    color:#ffffff;
+    font-weight:bold;
+    background-image:url(../../images/eng/global/etoile_rouge.png);
+    width:35px;
+    height:21px;
+    text-align: center;
+    padding-top:12px;
+}
+
+/*.att_experience p{
+    color:#FFFFFF;
+    text-align:center;
+    font-weight:bold;
+    padding-top:35px;
+    font-size:14px;
+}*/
+
+#team_validation{
+    float:left;
+    width:225px;
+    margin-top:0px;
+    margin-left:20px;
+    
+}
+
+#validation_button{
+
+    background-image:url(../../images/eng/team/valider-equipe.png);
+    width:225px;
+    height:150px;
+    cursor: pointer;
+    color:#ffffff;
+    font-size:18px;
+    font-weight: bold;
+}
+
+#validation_button_off{
+
+    background-image:url(../../images/eng/team/valider-equipe-off.png);
+    width:225px;
+    height:150px;
+    cursor: pointer;
+    color:#ffffff;
+    font-size:18px;
+    font-weight: bold;
+}
+
+#validation_button:hover{
+    color:#f3d327;
+
+}
+
+#composition{
+     float:left;
+     width:320px;
+     overflow:auto;
+     margin-top:10px;
+     margin-left:10px;
+}
+
+#composition h3,h4{
+     color:#093134;
+     width:100%;
+     font-size:16px;
+     text-align:center;
+}
+
+#composition_top{
+    width:320px;
+    height:42px;
+    background-image:url(../../images/eng/team/tactique_top.png);
+}
+
+#composition_center{
+    width:320px;
+    overflow: auto;
+    background-repeat:repeat-y;
+    background-image:url(../../images/eng/team/tactique_center.png);
+}
+
+#composition_bottom{
+    width:320px;
+    height:27px;
+    background-image:url(../../images/eng/team/tactique_bottom.png);
+}
+
+#help_team_sheet{
+    background-image:url(../../images/eng/global/help.png);
+    width:32px;
+    height:32px;
+    float:right;
+    margin-right:170px;
+}
+
+#team_tactic{
+    float:left;
+    width:300px;
+    height:440px;
+    margin-top:10px;
+    margin-bottom:15px;
+}
+
+#tacticId{
+    margin-left:120px;
+}
+
+
+#football_field{
+    width:272px;
+    height:403px;
+    background-image:url(../../images/eng/field/football_field.jpg);
+    margin-left:20px;
+    margin-top:10px;
+    
+    
+}
+
+
+
+#team_sheet{
+    float:left;
+    margin-top:10px;
+    margin-left:10px;
+    overflow:auto;
+}
+
+#team_sheet h4{
+    color:#093134;
+}
+
+#team_sheet_top{
+    width:350px;
+    height:36px;
+    background-image:url(../../images/eng/team/composition_top.png);
+}
+
+#team_sheet_center{
+    width:350px;
+    overflow: auto;
+    background-image:url(../../images/eng/team/composition_center.png);
+}
+
+#team_sheet_bottom{
+    width:350px;
+    height:23px;
+    background-image:url(../../images/eng/team/composition_bottom.png);
+}
+
+
+
+.player_def{
+    width:330px;
+    height:50px;
+    background-image:url(../../images/eng/team/composition_def.png);
+    margin-left:auto;
+    margin-right:auto;
+    /*background-color:#2630a9;*/
+}
+.player_att{
+    width:330px;
+    height:50px;
+    background-image:url(../../images/eng/team/composition_att.png);
+    margin-left:auto;
+    margin-right:auto;
+    /*background-color:#d50317;*/
+}
+.player_mill{
+    width:330px;
+    height:50px;
+    background-image:url(../../images/eng/team/composition_mil.png);
+    margin-left:auto;
+    margin-right:auto;
+    /*background-color:#c4780c;*/
+}
+
+.player_gb{
+    width:330px;
+    height:50px;
+    background-image:url(../../images/eng/team/composition_gb.png);
+    margin-left:auto;
+    margin-right:auto;
+    /*background-color:#c4780c;*/
+}
+
+.delete_player{
+    float:left;
+    width:16px;
+    height:16px;
+    background-image:url(../../images/eng/global/delete_player.png);
+    cursor:pointer;
+    margin-top:20px;
+    margin-left:10px;
+}
+
+.delete_player_off{
+    float:left;
+    width:16px;
+    height:16px;
+    background-image:url(../../images/eng/global/delete_player_off.png);
+    cursor:pointer;
+    margin-top:20px;
+    margin-left:10px;
+}
+
+.name_player{
+    float:left;
+    margin-top:20px;
+    width:150px;
+    font-size:12px;
+    color:#ffffff;
+    font-weight: bold;
+}
+.position_player{
+    float:left;
+    margin-top:20px;
+    font-size:12px;
+    width:15px;
+    color:#ffffff;
+    font-weight: bold;
+}
+
+.shirt_player{
+    float:right;
+    font-size:12px;
+    margin-top:35px;
+    margin-right:12px;
+    width:38px;
+    text-align:center;
+    color:#ffffff;
+    font-weight: bold;
+}
+
+.input_invisible {
+    border: solid black 0px;
+    background-color: transparent;
+}
+
+#select_ok{
+
+    background-image:url(../../images/eng/team/selection_ok.png);
+    width:100px;
+    height:20px;
+    cursor: pointer;
+}
+
+
+
+#composition_message{
+    width:250px;
+    font-size:12px;
+    margin-left:auto;
+    margin-right:auto;
+    color:#0d6f01;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.att{
+    color:#ffffff;
+    font-weight:bold;
+    background-image:url(../../images/eng/global/etoile_rouge.png);
+    width:35px;
+    height:21px;
+    text-align: center;
+    padding-top:12px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.mil{
+    color:#ffffff;
+    font-weight:bold;
+    background-image:url(../../images/eng/global/etoile_orange.png);
+    width:35px;
+    height:21px;
+    text-align: center;
+    padding-top:12px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.def{
+    color:#ffffff;
+    font-weight:bold;
+    background-image:url(../../images/eng/global/etoile_bleue.png);
+    width:35px;
+    height:21px;
+    text-align: center;
+    padding-top:12px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.gb{
+    color:#ffffff;
+    font-weight:bold;
+    background-image:url(../../images/eng/global/etoile_verte.png);
+    width:35px;
+    height:21px;
+    text-align: center;
+    padding-top:12px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+#avatar{
+    float:left;
+    width:100px;
+}
+
+#tab_team_stats
+{
+    float:right;
+    border-collapse:collapse;
+    /*clear:both;*/
+    color:#626262;
+
+    width:580px;
+    margin-right:0px;
+}
+
+.col_title{
+    width:190px;
+    padding-left:5px;
+    font-weight:bold;
+}
+
+.col_data{
+    width:190px;
+}
+
+.row_pair
+{
+    background-color:#d5d5d5;
+    height:20px;
+}
+
+.row_impair
+{
+    background-color:#eeeeee;
+    height:20px;
+}
+
+#pagination{
+    background-image:url(../../images/eng/global/tab_top.jpg);
+    background-repeat: repeat-x;
+    color:#ffffff;
+}
+
+.sponsor_item{
+    margin-top:20px;
+    width:600px;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    overflow:hidden;
+}
+
+/*.sponsor_item img{
+    float:left;
+    width:465px;
+}*/
+
+.labeltext{
+    float:left;
+    margin-top:25px;
+    margin-right:10px;
+}
+
+.accept_sponsor_button{
+    margin-top: 30px;
+    background-image:url(../../images/eng/transferts/bouton_accepter.png);
+    width:100px;
+    height:20px;
+    margin-left: 260px;
+    cursor:pointer;
+}
+
+#sponsor_list{
+    position:relative;
+    overflow:hidden;
+    width:600px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.sponsor_list_img{
+    position:relative;
+    width:465px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#sponsor_used{
+    width:465px;
+    position:relative;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+#training_buttons{
+    position:relative;
+    width:600px;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+#training_gb{
+    float:left;
+    background-image:url(../../images/eng/team/training_gb.jpg);
+    width:300px;
+    height:150px;
+    cursor:pointer;
+}
+
+#training_gb:hover{
+    border-style:solid;
+    border-width: 1px;
+    border-color:#ffffff;
+}
+
+#training_def:hover{
+    border-style:solid;
+    border-width: 1px;
+    border-color:#ffffff;
+}
+
+#training_def{
+    float:left;
+    background-image:url(../../images/eng/team/training_def.jpg);
+    width:300px;
+    height:150px;
+    cursor:pointer;
+}
+
+#training_mil:hover{
+    border-style:solid;
+    border-width: 1px;
+    border-color:#ffffff;
+}
+
+#training_mil{
+    float:left;
+    background-image:url(../../images/eng/team/training_mil.jpg);
+    width:300px;
+    height:150px;
+    cursor:pointer;
+}
+
+#training_att:hover{
+    border-style:solid;
+    border-width: 1px;
+    border-color:#ffffff;
+}
+
+#training_att{
+    float:left;
+    background-image:url(../../images/eng/team/training_att.jpg);
+    width:300px;
+    height:150px;
+    cursor:pointer;
+}
+
+#training_gb_off{
+    float:left;
+    background-image:url(../../images/eng/team/training_gb_off.jpg);
+    width:300px;
+    height:150px;
+    cursor:pointer;
+}
+
+#training_def_off{
+    float:left;
+    background-image:url(../../images/eng/team/training_def_off.jpg);
+    width:300px;
+    height:150px;
+    cursor:pointer;
+}
+
+#training_mil_off{
+    float:left;
+    background-image:url(../../images/eng/team/training_mil_off.jpg);
+    width:300px;
+    height:150px;
+    cursor:pointer;
+}
+
+#training_att_off{
+    float:left;
+    background-image:url(../../images/eng/team/training_att_off.jpg);
+    width:300px;
+    height:150px;
+    cursor:pointer;
+}
+
+#palmares table{
+    font-size:12px;
+    color:#000000;
+    margin-left:auto;
+    margin-right:auto;
+    width:700px;
+    margin-bottom:10px;
+    border-collapse: collapse;
+    color:#626262;
+
+
+}
+
+#palmares table a{
+
+    color:#626262;
+
+
+}
+
+#palmares table th{
+    /*padding:5px;*/
+    color:#ffffff;
+    height:30px;
+    background-image:url(../../images/eng/global/tab_top.jpg);
+    background-repeat: repeat-x;
+}
+
+#palmares table td{
+   text-align:center;
+   padding-top:5px;
+   padding-bottom:5px;
+   border-collapse: collapse;
+}
+
+.dirtygold_img{
+    width:30px;
+    height:30px;
+    margin-top:5px;
+}
+
+#progress_tube{
+    width:700px;
+    margin-left:auto;
+    margin-right:auto;
+    overflow:auto;
+}
+
+#tubes{
+    width:255px;
+    margin-left:auto;
+    margin-right:auto;
+    overflow:hidden;
+}
+
+.title_tube{
+   text-align:center;
+   color:#626262;
+   font-weight:bold;
+}
+
+.tube{
+   float:left;
+   margin-left:10px;
+}
+
+#invitation_challenge{
+    float:right;
+    margin-right:100px;
+    background-image:url(../../images/eng/friendly/challenge_team.png);
+    width:380px;
+    height:50px;
+    margin-top:15px;
+}
+
+#invitation_challenge:hover{
+    margin-right:101px;
+    cursor:pointer;
+}
+
+.message_defi{
+    color:#626262;
+    font-size:16px;
+    margin:5px 0 15px 0;
+}
+
+.btn{
+    margin-left:75px;
+}
+
+.btn_defier{
+    background-image: url("../../images/eng/friendly/challenge.png");
+    width:100px;
+    height: 20px;
+    cursor:pointer;
+    margin:0 auto 0 auto;
+}
+
+.btn_publier{
+    background-image: url("../../images/eng/friendly/publish.png");
+    width:100px;
+    height: 20px;
+    cursor:pointer;
+    margin:0 auto 0 auto;
+}
+
+.btn_cancel{
+    background-image: url("../../images/eng/friendly/cancel.png");
+    width:100px;
+    height: 20px;
+    cursor:pointer;
+    margin:0 auto 0 auto;
+}
+
+.input_invisible {
+    border: solid black 0px;
+    background-color: transparent;
+}
+
+#facebox {
+
+  top: 150px;
+
+}
+
+
+#facebox .popup{
+  position:relative;
+  top: 150px;
+}

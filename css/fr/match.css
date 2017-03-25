@@ -1,0 +1,602 @@
+#rotate{
+
+    margin-top:10px;
+    margin-left:5px;
+}
+
+#match_championship {
+    float:left;
+    width:700px;
+
+}
+
+#top_match
+{
+    background-image:url(../../images/fr/match/top_match.jpg);
+    width:450px;
+    height:23px;
+}
+
+#middle_match
+{
+    background-image: url(../../images/fr/match/center_match.jpg);
+    background-repeat: repeat-y;
+    width:450px;
+    
+}
+
+#bottom_match
+{
+    background-image: url(../../images/fr/match/bottom_match.jpg);
+    width:450px;
+    height:23px;
+}
+
+#top_classement
+{
+    background-image:url(../../images/fr/match/top_classement.jpg);
+    width:320px;
+    height:16px;
+}
+
+#middle_classement
+{
+    background-image: url(../../images/fr/match/center_classement.jpg);
+    background-repeat: repeat-y;
+    width:320px;
+    font-weight: bold;
+
+}
+
+#middle_classement td,a
+{
+    color:#626262;
+    font-weight: bold;
+
+}
+
+#bottom_classement
+{
+    background-image: url(../../images/fr/match/bottom_classement.jpg);
+    width:320px;
+    height:16px;
+}
+
+#classement {
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    width:670px;
+}
+
+#classement table{
+    width:670px;
+    border-collapse: collapse;
+}
+
+#classement th{
+    color:#ffffff;
+    height:30px;
+    background-image:url(../../images/fr/global/tab_top.jpg);
+    background-repeat: repeat-x;
+    
+}
+
+#classement tr{
+    height:20px;
+}
+
+#classement td{
+    text-align: center;
+}
+
+.match
+{
+    height:80px;
+    width:700px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #eeeeee;
+}
+
+.match_title
+{
+    
+    /*background-color: #037000;*/
+    color:#ffffff;
+    width:700px;
+    height:30px;
+    /*background-image:url(../images/match/tab_match.jpg);*/
+    background-image:url(../../images/fr/global/tab_top.jpg);
+    background-repeat: repeat-x;
+    
+    
+}
+
+.day{
+    float:left;
+    margin-top: 8px;
+    margin-left:10px;
+    font-weight: bold;
+}
+
+.date
+{
+    float:right;
+    margin-top: 8px;
+    margin-right:10px;
+    font-weight: bold;
+}
+
+.equipes
+{
+   margin-top:15px;
+   margin-left:80px;
+   clear:both;
+}
+
+.equipes a
+{
+    color:#626262;
+}
+
+.home_team{
+    width:150px;
+    text-align:center;
+}
+
+.away_team{
+    width:150px;
+    text-align:center;
+}
+
+.display_match{
+    float:right;
+    margin-right:30px;
+}
+
+.display_match a{
+    color:#626262;
+}
+
+.score
+{
+    float:left;
+    margin-right:20px;
+}
+
+.home_team
+{
+    float:left;
+    margin-right:20px;
+}
+
+.away_team
+{
+    float:left;
+}
+
+.championship_row_1
+{
+    position:relative;
+    width:650px;
+    height:50px;
+    background-image:url(../../images/fr/match/championnat1.png);
+    margin-left: auto;
+    margin-right:auto;
+    overflow:auto;
+}
+
+.championship_row_2
+{
+    position:relative;
+    width:650px;
+    height:50px;
+    background-image:url(../../images/fr/match/championnat2.png);
+    margin-left: auto;
+    margin-right:auto;
+    overflow:auto;
+}
+
+.championship_row_3
+{
+    position:relative;
+    width:650px;
+    height:50px;
+    background-image:url(../../images/fr/match/championnat3.png);
+    margin-left: auto;
+    margin-right:auto;
+    overflow:auto;
+}
+
+.championship_title
+{
+    float:left;
+    margin-top:15px;
+    margin-left:10px;
+    color:#626262;
+    font-weight: bold;
+}
+
+.championship_nb_players
+{
+    float:right;
+    margin-top:15px;
+    margin-right:75px;
+    color:#ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.championship_level
+{
+    float:right;
+    margin-top:15px;
+    margin-right:55px;
+    color:#ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.join_championship
+{
+    float:right;
+    margin-top:15px;
+    margin-right:10px;
+    background-image:url(../../images/fr/match/bouton_rejoindre.png);
+    width:100px;
+    height:20px;
+    cursor:pointer;
+}
+
+.see_championship
+{
+    float:right;
+    margin-top:15px;
+    margin-right:10px;
+    background-image:url(../../images/fr/match/bouton_voir.png);
+    width:100px;
+    height:20px;
+    cursor:pointer;
+}
+
+#loadingMessage
+{
+    display:none;
+}
+
+#form_creation{
+    width:450px;
+    margin-right:auto;
+    margin-left:auto;
+    position:relative;
+}
+
+#create_championship_top{
+    width:450px;
+    height:36px;
+    background-image:url(../../images/fr/match/create_champ_top.png);
+}
+
+#create_championship_center{
+    width:450px;
+    background-image:url(../../images/fr/match/create_champ_center.png);
+    background-repeat: repeat-y;
+}
+
+#create_championship_bottom{
+    width:450px;
+    height:20px;
+    background-image:url(../../images/fr/match/create_champ_bottom.png);
+}
+
+.create_championship{
+    margin-top: 8px;
+    background-image:url(../../images/fr/match/bouton_creer.png);
+    width:100px;
+    height:20px;
+    margin-left: 180px;
+    cursor:pointer;
+}
+
+#cost_dirtygold{
+    margin-bottom:-10px;
+}
+
+.create_champ_input{
+    margin-left:50px;
+    padding-top:5px;
+    color: #626262;
+}
+
+.input_invisible {
+    border: solid black 0px;
+    background-color: transparent;
+}
+
+#awards table{
+    width:700px;
+    border-collapse: collapse;
+}
+
+#awards th{
+    color:#ffffff;
+    height:30px;
+    background-image:url(../../images/fr/global/tab_top.jpg);
+    background-repeat: repeat-x;
+
+}
+
+#awards tr{
+    height:20px;
+}
+
+#awards td{
+    text-align: center;
+    width:350px;
+}
+
+#pagination{
+    background-image:url(../../images/fr/global/tab_top.jpg);
+    background-repeat: repeat-x;
+    color:#ffffff;
+}
+
+.match_opponent{
+    width:480px;
+    height:70px;
+    background-image:url(../../images/fr/corruption/observations.png);
+    margin-left: auto;
+    margin-right: auto;
+    overflow:auto;
+
+}
+
+#home_team_resume{
+float:left;
+width:120px;
+margin-left:65px;
+text-align: center;
+margin-top:33px;
+color:#ffffff;
+font-weight:bold;
+}
+
+#home_score_resume{
+float:left;
+width:25px;
+text-align: center;
+margin-left:5px;
+margin-top:30px;
+font-weight:bold;
+font-size:14px;
+}
+
+#away_team_resume{
+float:right;
+width:120px;
+margin-right:75px;
+text-align: center;
+margin-top:33px;
+color:#ffffff;
+font-weight:bold;
+}
+
+#away_score_resume{
+float:right;
+width:25px;
+text-align: center;
+margin-right:8px;
+margin-top:30px;
+font-weight:bold;
+font-size:14px;
+}
+
+#comment{
+    width:430px;
+
+    margin-left: auto;
+    margin-right: auto;
+    overflow:auto;
+    margin-top:-5px;
+    border:dashed black;
+    border-width: 1px;
+}
+
+#comment_att{
+
+    padding: 15px;
+    border-bottom:dashed black;
+    border-width: 1px;
+}
+
+#comment_mil{
+
+    padding: 15px;
+    border-bottom:dashed black;
+    border-width: 1px;
+}
+
+#comment_def{
+
+    padding: 15px;
+    /*border-bottom:dashed black;
+    border-width: 1px;*/
+}
+
+#recompenses{
+    width:500px;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+    margin-bottom:10px;
+    color:#626262;
+}
+
+#recompenses a{
+    color:#626262;
+}
+
+.award_place{
+    color:#626262;
+}
+
+.award_value{
+    color:#626262;
+}
+
+#championships_pagination{
+    width:80px;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+    margin-top:10px;
+}
+
+
+#research{
+    position:relative;
+    margin-right:auto;
+    margin-left:auto;
+    width:430px;
+    color:#626262;
+    font-weight:bold;
+    margin-top:10px;
+    margin-bottom: 20px;
+}
+
+#research_ok{
+
+    margin-top:-15px;
+    margin-left:0px;
+
+    background-image:url(../../images/fr/transferts/bouton_rechercher.png);
+    width:100px;
+    height:20px;
+    cursor: pointer;
+}
+
+#stats_champ{
+    overflow:auto;
+    width:600px;
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#last_matchs{
+    float:left;
+    width:300px;
+    /*position:relative;
+    margin-left:auto;
+    margin-right:auto;*/
+    margin-top: 30px;
+    overflow:auto;
+}
+
+#last_matchs_title{
+    width:300px;
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    color:#026c00;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+#next_matchs{
+    float:left;
+    width:300px;
+    /*position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 30px;*/
+    overflow:auto;
+    margin-top: 30px;
+}
+
+#next_matchs_title{
+    width:300px;
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    color:#026c00;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+.match_score{
+      color:#626262;
+      text-align: center;
+      margin-top:15px;
+      overflow:auto;
+}
+
+.home_team_result{
+    float:left;
+    width:130px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.away_team_result{
+    float:left;
+    width:130px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.home_team_score_result{
+    float:left;
+    width:30px;
+    margin-bottom: 5px;
+}
+
+.btn_share{
+    background-image: url("../../images/fr/friendly/bouton_publier.png");
+    width:100px;
+    height: 20px;
+    cursor:pointer;
+    margin:0 auto 0 auto;
+}
+
+.btn_cancel{
+    background-image: url("../../images/fr/friendly/bouton_annuler.png");
+    width:100px;
+    height: 20px;
+    cursor:pointer;
+    margin:0 auto 0 auto;
+}
+
+.message_defi{
+    color:#626262;
+    font-size:16px;
+    margin:5px 0 15px 0;
+}
+
+.btn{
+    margin-left:75px;
+}
+
+#facebox {
+  position: absolute;
+  top: 150px;
+  left: 0;
+  z-index: 100;
+  text-align: left;
+}
+
+
+#facebox .popup{
+  position:relative;
+  top: 150px;
+  border:3px solid rgba(0,0,0,0);
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  border-radius:5px;
+  -webkit-box-shadow:0 0 18px rgba(0,0,0,0.4);
+  -moz-box-shadow:0 0 18px rgba(0,0,0,0.4);
+  box-shadow:0 0 18px rgba(0,0,0,0.4);
+}

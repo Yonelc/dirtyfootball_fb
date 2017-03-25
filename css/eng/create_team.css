@@ -1,0 +1,437 @@
+/* CSS Document */
+*{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+margin:0;
+padding:0;
+}
+
+/*body{
+    overflow:hidden;
+}*/
+
+#conteneur{
+width:760px;
+overflow:hidden;
+}
+
+#header{
+
+width:760px;
+height:137px;
+background-image:url(../../images/eng/global/header.jpg);
+
+
+}
+
+#date{
+    width:250px;
+    float:left;
+    color:#626262;
+    font-size:12px;
+    margin-top:5px;
+}
+
+#day{
+    float:left;
+    width:16px;
+    height:16px;
+    background-image:url(../../images/eng/global/calendar.png);
+    margin-left:45px;
+}
+
+#day_text{
+    float:left;
+    margin-left:5px;
+}
+
+#clock{
+    float:left;
+    width:16px;
+    height:16px;
+    background-image:url(../../images/eng/global/clock.gif);
+    margin-left:5px;
+}
+
+#clock_text{
+    float:left;
+    margin-left:5px;
+}
+
+#general_access{
+
+float:right;
+margin-top:5px;
+}
+
+#general_access li{
+
+float:left;
+list-style:none;
+margin-left:10px;
+}
+
+#general_access li:hover{
+margin-top:1px;
+}
+
+#top_frame{
+width:760px;
+height:38px;
+background-image:url(../../images/eng/global/top_frame.png);
+}
+
+.center_frame{
+width:760px;
+background-repeat:repeat-y;
+background-image:url(../../images/eng/global/center_frame.png);
+overflow:hidden;
+min-height: 800px;
+}
+
+
+#content{
+
+width:720px;
+margin-top:10px;
+margin-left:20px;
+
+}
+
+#main_menu{
+margin-left:auto;
+margin-right:auto;
+width:728px;
+height:54px;
+background-repeat:no-repeat;
+background-image:url(../../images/eng/global/main_menu.png);
+
+}
+
+#welcome_message{
+margin-left:auto;
+margin-right:auto;
+padding-top:10px;
+width:150px;
+text-align:center;
+font-size: 18px;
+font-weight:bold;
+color:#fff;
+}
+
+#main_menu ul{
+display:none;
+margin-left:60px;
+
+}
+
+#main_menu li{
+float:left;
+margin-left:30px;
+margin-top:5px;
+list-style:none;
+}
+
+#main_menu li:hover{
+margin-top:7px;
+
+}
+
+#main_menu li a{
+font-size:11px;
+color:#ffffff;
+}
+
+#easyTooltip{
+    background:#151515;
+    border-style:solid;
+    border-color:#ffffff;
+    border-width:1px;
+    color:#ffffff;
+    font-size:12px;
+    padding:5px;
+
+}
+
+/* formulaire */
+
+
+
+#content h1{
+    
+    margin-top:5px;
+    margin-left:10px;
+    color:#559362;
+    font-size:18px;
+    border-bottom:1px solid #559362;
+}
+
+.create_team{
+
+    margin-top:10px;
+    margin-bottom:20px;
+    overflow: hidden;
+    
+}
+
+.bloc_input{
+    overflow:hidden;
+    margin-top:5px;
+    width:300px;
+    height:50px;
+    padding-top:16px;
+    padding-left:5px;
+    background-repeat:no-repeat;
+    background-image:url(../../images/eng/global/bloc_input.jpg);
+}
+
+.create_team input{
+    border: none;
+    width:100px;
+    margin-top:3px;
+    margin-left:5px;
+    background-color:transparent;
+    color:#ffffff;
+
+
+}
+
+.create_team select{
+float:left;
+margin-left:5px;
+
+}
+
+.create_team label{
+    color:#559362;
+    float:left;
+    font-size: 11px;
+    font-weight: bold;
+    margin-top:3px;
+}
+
+.create_team_left{
+    float:left;
+    margin-left:50px;
+}
+
+.create_team_right{
+    float:right;
+    margin-right:50px;
+}
+
+#create_team_bottom{
+    clear:both;
+    margin-left:10px;
+    padding-top:10px;
+}
+
+#create_team_bottom a{
+    color:#559362;
+}
+
+.inputs{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+#register_ok{
+
+    background-image:url(../../images/eng/global/inscrire.png);
+    width:100px;
+    height:32px;
+    cursor:pointer;
+    margin-left:120px;
+
+}
+
+.input_invisible{
+    border:none;
+}
+
+/* error message*/
+
+#error_message{
+    border: 1px solid red;
+    background-color:#fefd8f;
+    margin-left:20px;
+    margin-top:20px;
+    padding:10px;
+}
+
+#error_message p{
+    font-size:12px;
+    color:red;
+}
+
+#confirm_message{
+    border: 1px solid #c8f792;
+    background-color:#e1ffbf;
+    margin-left:20px;
+    margin-top:20px;
+    padding:10px;
+}
+
+#confirm_message p{
+    font-size:12px;
+    color:#68a677;
+}
+
+#money{
+margin-right:20px;
+margin-top:8px;
+float:right;
+color:#ffffff;
+font-size:12px;
+width:100px;
+text-align: center;
+font-weight: bold;
+}
+
+#dirty_gold{
+margin-right:60px;
+margin-top:8px;
+float:right;
+color:#ffffff;
+font-size:12px;
+width:100px;
+text-align: center;
+font-weight: bold;
+}
+
+#lang{
+margin-left:auto;
+margin-right:auto;
+width:120px;/*308*/
+overflow:hidden;
+margin-top:10px;
+margin-bottom:10px;
+}
+
+#lang a{
+float:left;
+padding:5px;
+}
+
+.entete
+{
+overflow:hidden;
+}
+
+.entete img
+{
+float:left;
+}
+
+.input_background{
+
+    background-image: url(../../images/eng/global/input.png);
+    width:109px;
+    height:20px;
+    float:left;
+    margin-left:5px;
+}
+
+#barre_bas{
+    width:150px;
+    height:80px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#validation{
+    background-image: url(../../images/eng/global/valider.jpg);
+    background-position: 0px 0px;
+    width:150px;
+    height:80px;
+    margin-left: 265px;
+    
+
+}
+
+#validation:hover{
+    background-position: 0 -78px;
+}
+
+.btn_validation{
+   padding-left:0px;
+   padding-top:0px;
+   font-weight: bold;
+   font-size:14px;
+   cursor:pointer;
+}
+
+#footer{
+    background-image:url(../../images/eng/global/bottom_frame.png);
+    width:760px;
+    height:63px;
+}
+
+#footer_links{
+    padding-top:15px;
+    color:#626262;
+    font-size:10px;
+    width:200px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#footer_links a{
+    color:#626262;
+    font-size:10px;
+    font-weight:bold;
+}
+.btn_publier{
+    background-image: url("../../images/fr/friendly/bouton_plublier.png");
+    width:100px;
+    height: 20px;
+    cursor:pointer;
+    margin:0 auto 0 auto;
+}
+
+.btn_cancel{
+    background-image: url("../../images/fr/friendly/bouton_annuler.png");
+    width:100px;
+    height: 20px;
+    cursor:pointer;
+    margin:0 auto 0 auto;
+}
+
+.input_invisible {
+    border: solid black 0px;
+    background-color: transparent;
+}
+
+.message_defi{
+    color:#626262;
+    font-size:16px;
+    margin:5px 0 15px 0;
+}
+
+.btn{
+    margin-left:75px;
+}
+/* Selectmenu
+----------------------------------*/
+.ui-selectmenu { display: block; position:relative; height:2em; text-decoration: none; overflow:hidden;}
+.ui-selectmenu-icon { position:absolute; right:6px; margin-top:-8px; top: 50%; }
+.ui-selectmenu-menu { padding:0; margin:0; list-style:none; position:absolute; top: 0; visibility: hidden; overflow: auto; }
+.ui-selectmenu-open { visibility: visible; }
+.ui-selectmenu-menu-popup { margin-top: -1px; }
+.ui-selectmenu-menu-dropdown { }
+.ui-selectmenu-menu li { padding:0; margin:0; display: block; border-top: 1px dotted transparent; border-bottom: 1px dotted transparent; border-right-width: 0 !important; border-left-width: 0 !important; font-weight: normal !important; }
+.ui-selectmenu-menu li a,.ui-selectmenu-status {line-height: 1.4em; display:block; padding:.3em 1em; outline:none; text-decoration:none; }
+.ui-selectmenu-menu li.ui-selectmenu-hasIcon a,
+.ui-selectmenu-hasIcon .ui-selectmenu-status { padding-left: 20px; position: relative; margin-left: 5px; }
+.ui-selectmenu-menu li .ui-icon, .ui-selectmenu-status .ui-icon { position: absolute; top: 1em; margin-top: -8px; left: 0; }
+.ui-selectmenu-status { line-height: 1.4em; }
+.ui-selectmenu-open li.ui-selectmenu-item-focus a {  }
+.ui-selectmenu-open li.ui-selectmenu-item-selected { }
+.ui-selectmenu-menu li span,.ui-selectmenu-status span { display:block; margin-bottom: .2em; }
+.ui-selectmenu-menu li .ui-selectmenu-item-header { font-weight: bold; }
+.ui-selectmenu-menu li .ui-selectmenu-item-content {  }
+.ui-selectmenu-menu li .ui-selectmenu-item-footer { opacity: .8; }
+/*for optgroups*/
+.ui-selectmenu-menu .ui-selectmenu-group { font-size: 1em; }
+.ui-selectmenu-menu .ui-selectmenu-group .ui-selectmenu-group-label { line-height: 1.4em; display:block; padding:.6em .5em 0; font-weight: bold; }
+.ui-selectmenu-menu .ui-selectmenu-group
+

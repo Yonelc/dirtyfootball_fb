@@ -1,0 +1,524 @@
+/* CSS Document */
+
+/*#content{
+    
+    width:720px;
+    margin-top:30px;
+    margin-left:20px;
+
+}*/
+#ticker{
+    width:700px;
+    position:relative;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+#progress_bar{
+    width:700px;
+    height:100px;
+    background-image: url(../../images/eng/global/progress_bar.png);
+    position:relative;
+    margin-right:auto;
+    margin-left:auto;
+    overflow:hidden;
+}
+
+#progress1{
+    float:left;
+    width:200px;
+    text-align: center;
+    margin-top:40px;
+    margin-left:22px;
+}
+
+#progress1 a{
+    font-size:12px;
+    color:#ffffff;
+    font-weight: bold;
+}
+
+#progress2{
+    float:left;
+    width:150px;
+    margin-top:40px;
+    margin-left:60px;
+}
+
+#progress2 a{
+    font-size:12px;
+    color:#ffffff;
+    font-weight: bold;
+
+}
+
+#progress3{
+    float:left;
+    width:150px;
+    margin-top:40px;
+    margin-left:90px;
+}
+
+#progress3 a{
+    font-size:12px;
+    color:#ffffff;
+    font-weight: bold;
+}
+
+
+#message{
+float:left;
+margin-left:15px;
+}
+
+#message_top{
+    width:350px;
+    height:46px;
+    background-image: url(../../images/eng/manager/message_top.png);
+}
+
+#message_center{
+    width:350px;
+    min-height:300px;
+    background-repeat: repeat-y;
+    background-image: url(../../images/eng/manager/message_center.png);
+}
+
+#message_bottom{
+    width:350px;
+    height:21px;
+    background-image: url(../../images/eng/manager/message_bottom.png);
+}
+
+#message_tab{
+    width:325px;
+    border-collapse: collapse;
+    font-size:12px;
+    color:#626262;
+    margin-left:12px;
+    
+}
+
+.logo_message{
+    width:32px;
+}
+
+#message_tab td{
+    padding:5px;
+
+}
+#message_tab td a{
+    color:#626262;
+    font-weight: bold;
+}
+
+#bloc_right{
+   float:right;
+   width:300px;
+   margin-right:15px;
+   margin-top:3px;
+}
+
+#top_team{
+    width:300px;
+    height:33px;
+    background-image: url(../../images/eng/manager/team_top.png);
+}
+
+#center_team{
+    width:300px;
+    min-height:16px;
+    background-image: url(../../images/eng/manager/stats_center.png);
+    background-repeat: repeat-y;
+}
+
+#bottom_team{
+    width:300px;
+    height:17px;
+    background-image: url(../../images/eng/manager/stats_bottom.png);
+}
+
+#comment_team{
+    color:#626262;
+    text-align: center;
+    font-size: 12px;
+    margin-left:10px;
+    width:275px;
+}
+
+#comment_team a{
+    color:#626262;
+    font-weight: bold;
+
+}
+
+#top_championship{
+    width:300px;
+    height:33px;
+    background-image: url(../../images/eng/manager/championship_top.png);
+}
+
+#top_matchs{
+    width:300px;
+    height:33px;
+    background-image: url(../../images/eng/manager/matchs_top.png);
+}
+
+#center_matchs{
+    width:300px;
+    min-height:16px;
+    background-image: url(../../images/eng/manager/stats_center.png);
+    background-repeat: repeat-y;
+}
+
+#bottom_matchs{
+    width:300px;
+    height:17px;
+    background-image: url(../../images/eng/manager/stats_bottom.png);
+}
+
+#comment_match{
+    color:#626262;
+    text-align: center;
+    font-size: 12px;
+    margin-left:10px;
+    width:275px;
+}
+
+#comment_match a{
+    color:#626262;
+    font-weight: bold;
+}
+
+#top_stats{
+    width:300px;
+    height:33px;
+    background-image: url(../../images/eng/manager/stats_top.png);
+}
+
+#center_stats{
+    width:300px;
+    min-height:160px;
+    background-image: url(../../images/eng/manager/stats_center.png);
+    background-repeat: repeat-y;
+}
+
+#bottom_stats{
+    width:300px;
+    height:17px;
+    background-image: url(../../images/eng/manager/stats_bottom.png);
+}
+
+#pie_stats{
+    float:left;
+    margin-left:15px;
+    background-color: #e4eaed;
+}
+
+
+.input_invisible {
+    border: solid black 0px;
+    background-color: transparent;
+}
+
+#terrain{
+    width:700px;
+    height:300px;
+    background-image: url(../../images/eng/manager/terrain.jpg);
+}
+
+#carre_1{
+    float:left;
+    margin-left:290px;
+    margin-right:290px;
+    width:122px;
+    height:92px;
+}
+
+#carre_2{
+    float:left;
+    margin-left:50px;
+    margin-top:-20px;
+    width:122px;
+    height:92px;
+}
+
+#carre_3{
+    float:left;
+    margin-left:120px;
+    width:122px;
+    height:92px;
+}
+
+#carre_4{
+    float:left;
+    margin-left:0px;
+    margin-top:-50px;
+    width:122px;
+    height:92px;
+}
+
+#carre_5{
+    float:left;
+    width:122px;
+    height:92px;
+}
+
+#carre_6{
+    float:left;
+    margin-left:170px;
+    margin-top:-40px;
+    width:122px;
+    height:92px;
+}
+
+#carre_7{
+    float:left;
+    margin-left:0px;
+
+    width:122px;
+    height:92px;  
+}
+
+#carre_8{
+    float:left;
+    margin-left:10px;
+    margin-top:-40px;
+    width:122px;
+    height:92px;
+}
+
+#palmares table{
+    font-size:12px;
+    color:#000000;
+    margin-left:auto;
+    margin-right:auto;
+    width:700px;
+    margin-bottom:10px;
+    border-collapse: collapse;
+    color:#626262;
+
+
+}
+
+#palmares table a{
+
+    color:#626262;
+
+
+}
+
+#palmares table th{
+    /*padding:5px;*/
+    color:#ffffff;
+    height:30px;
+    background-image:url(../../images/eng/global/tab_top.jpg);
+    background-repeat: repeat-x;
+}
+
+#palmares table td{
+   text-align:center;
+   padding-top:5px;
+   padding-bottom:5px;
+   border-collapse: collapse;
+}
+
+#pagination{
+    background-image:url(../../images/eng/global/tab_top.jpg);
+    background-repeat: repeat-x;
+    color:#ffffff;
+}
+
+#tuto{
+    width:450px;
+}
+
+#top_amis_table{
+    width:100%;
+    /*float:left;*/
+}
+
+#top_amis_table a{
+    color:#626262;
+}
+
+#top_amis_table{
+    font-size:12px;
+    color:#626262;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:10px;
+    border-collapse: collapse;
+    /*padding:5px;*/
+}
+
+#top_amis_table th{
+    /*padding:5px;*/
+    height:30px;
+    background-image:url(../../images/eng/global/tab_top.jpg);
+    background-repeat: repeat-x;
+    color:#ffffff;
+}
+
+#top_amis_table td{
+   text-align:center;
+   padding-top:5px;
+
+   padding-bottom:5px;
+   color:#626262;
+}
+
+#top_amis_table tr{
+   /*background-color:#faf8b8;*/
+}
+
+#top_table{
+    width:100%;
+    /*float:right;*/
+
+}
+
+#top_table a{
+    color:#626262;
+}
+
+#top_table{
+    font-size:12px;
+    color:#626262;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:10px;
+    border-collapse: collapse;
+    /*padding:5px;*/
+}
+
+#top_table th{
+    /*padding:5px;*/
+    height:30px;
+    background-image:url(../../images/eng/global/tab_top.jpg);
+    background-repeat: repeat-x;
+    color:#ffffff;
+}
+
+#top_table td{
+   text-align:center;
+   padding-top:5px;
+
+   padding-bottom:5px;
+   color:#626262;
+}
+
+#top_table tr{
+   /*background-color:#faf8b8;*/
+}
+
+#pagination{
+    background-image:url(../../images/eng/global/tab_top.jpg);
+    background-repeat: repeat-x;
+    color:#ffffff;
+}
+
+#bug_consigne{
+color: #626262;
+position:relative;
+margin-left:auto;
+margin-right:auto;
+width:400px;
+}
+
+#bug_text{
+position:relative;
+margin-left:auto;
+margin-right:auto;
+width:400px;
+}
+
+#bug_control{
+position:relative;
+margin-left:auto;
+margin-right:auto;
+width:400px;
+color: #626262;
+}
+
+.btn_validation{
+    width:150px;
+    position:relative;
+    margin-left:260px;
+
+}
+
+fieldset{
+    margin-bottom:10px;
+    padding:10px;
+}
+
+legend{
+    color: #057700;
+    font-weight: bold;
+}
+
+
+#holiday_label{
+    float:left;
+    margin-top: 10px;
+}
+
+.holiday_button{
+    float:left;
+    margin-top: 8px;
+    background-image:url(../../images/eng/manager/bouton_holiday.png);
+    width:100px;
+    height:20px;
+    margin-left: 30px;
+    cursor:pointer;
+}
+
+.holiday_back_button{
+    float:left;
+    margin-top: 8px;
+    background-image:url(../../images/eng/manager/bouton_back_holiday.png);
+    width:100px;
+    height:20px;
+    margin-left: 30px;
+    cursor:pointer;
+}
+
+.input_invisible {
+    border: solid black 0px;
+    background-color: transparent;
+}
+
+fieldset{
+    margin-bottom:10px;
+    padding:10px;
+}
+
+legend{
+    color: #057700;
+    font-weight: bold;
+}
+
+.faq_title{
+    font-size: 16px;
+    color: #057700;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.question{
+    font-weight: bold;
+}
+
+#competMatchs{
+    padding-bottom: 10px;
+}
+
+#friendlyMatchs{
+    padding-top: 10px;
+}
+
+hr{
+    margin:5px 0 5px 0;
+    color: #9a9a9a;
+}

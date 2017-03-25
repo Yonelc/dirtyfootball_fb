@@ -1,0 +1,650 @@
+#rotate{
+    
+    margin-top:10px;
+    margin-left:5px;
+}
+
+#bloc_droit{
+    float:left;;
+    overflow: auto;
+    width:500px;
+    margin-top:30px;
+}
+
+#experience{
+    float:left;
+    width:450px;
+    margin-left:20px;
+}
+
+#experience_top{
+
+    width:450px;
+    height:36px;
+    background-image:url(../../images/eng/team/exp_top.png);
+    margin-left:0px;
+}
+
+#experience_bottom{
+
+    width:450px;
+    height:20px;
+    background-image:url(../../images/eng/team/exp_bottom.png);
+    margin-left:0px;
+}
+
+#exp_team{
+
+    overflow: auto;
+    width:450px;
+    margin-left:0px;
+    background-image:url(../../images/eng/team/exp_center.png);
+    background-repeat:repeat-y;
+}
+
+#help_potentiel{
+    background-image:url(../../images/eng/global/help.png);
+    width:32px;
+    height:32px;
+    float:right;
+    margin-right:225px;
+}
+
+/*#exp_team h1,h2{
+    clear:both;
+    margin-top: 5px;
+    margin-bottom:  5px;
+    /*padding-left:20px;*/
+   /* color:#093134;
+    font-weight:bold;
+    font-size:16px;
+}*/
+
+/*#exp_primaire {
+    width:450px;
+    margin-left:0px;
+}*/
+
+#exp_primaire li{
+    float:left;
+    list-style: none;
+    margin-left:10px;
+}
+
+/*#exp_secondaire{
+    width:450px;
+    margin-left:0px;
+}*/
+
+#exp_secondaire li{
+    float:left;
+    list-style: none;
+    margin-left:10px;
+}
+
+#potentiel_primaire{
+    float:left;
+    width:200px;
+    margin-left:15px;
+}
+
+#potentiel_primaire h1
+{
+    font-size:12px;
+    color:#626262;
+    font-weight:bold;
+    text-align: center;
+    width:180px;
+    margin-left:5px;
+}
+
+#potentiel_secondaire{
+    float:left;
+    width:200px;
+    margin-left:15px;
+}
+
+#potentiel_secondaire h2{
+    font-size:12px;
+    color:#626262;
+    font-weight:bold;
+    text-align: center;
+    width:180px;
+    margin-left:7px;
+}
+
+.gb_experience{
+
+    color:#ffffff;
+    font-weight:bold;
+    background-image:url(../../images/eng/global/etoile_verte.png);
+    width:35px;
+    height:21px;
+    text-align: center;
+    padding-top:12px;
+}
+
+/*.gb_experience p{
+    color:#FFFFFF;
+    text-align:center;
+    font-weight:bold;
+    padding-top:35px;
+    font-size:14px;
+}*/
+
+.def_experience{
+
+    color:#ffffff;
+    font-weight:bold;
+    background-image:url(../../images/eng/global/etoile_bleue.png);
+    width:35px;
+    height:21px;
+    text-align: center;
+    padding-top:12px;
+}
+
+/*.def_experience p{
+
+    color:#FFFFFF;
+    text-align:center;
+    font-weight:bold;
+    padding-top:35px;
+    font-size:14px;
+}*/
+
+.mill_experience{
+
+    color:#ffffff;
+    font-weight:bold;
+    background-image:url(../../images/eng/global/etoile_orange.png);
+    width:35px;
+    height:21px;
+    text-align: center;
+    padding-top:12px;
+}
+
+/*.mill_experience p{
+    color:#FFFFFF;
+    text-align:center;
+    font-weight:bold;
+    padding-top:35px;
+    font-size:14px;
+}*/
+
+.att_experience{
+
+    color:#ffffff;
+    font-weight:bold;
+    background-image:url(../../images/eng/global/etoile_rouge.png);
+    width:35px;
+    height:21px;
+    text-align: center;
+    padding-top:12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#matchs{
+    overflow:auto;
+}
+
+#offensive_frame{
+    width:650px;
+    overflow: auto;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#defensive_frame{
+    width:650px;
+    overflow: auto;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#own_bonus_list{
+    width:500px;
+    overflow: auto;
+    float:left;
+}
+
+#own_bonus_used_list{
+    width:190px;
+    overflow: auto;
+    float:left;
+    margin-top:30px;
+}
+
+.match_opponent{
+    width:650px;
+    height:80px;
+    background-image:url(../../images/eng/corruption/next-match.png);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.match_opponent ul{
+    padding-top:40px;
+    margin-left:145px;
+}
+
+.match_opponent li{
+    margin-right:100px;
+    width:120px;
+    float: left;
+    list-style: none;
+    color:#ffffff;
+    font-size:14px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.proposition{
+    width:455px;
+    background-repeat: repeat-y;
+    background-color:#e4eaed;
+    margin-left: 115px;
+    overflow: auto;
+
+}
+
+#bottom_proposition{
+    width:650px;
+    height:20px;
+    background-image:url(../../images/eng/corruption/bottom_next_match.png);
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.product_money{
+    width:150px;
+    height:250px;
+    background-image:url(../../images/eng/corruption/product_w.jpg);
+    float:left;
+    margin-right:5px;
+    margin-left:5px;
+    margin-bottom: 15px;
+    font-size:11px;
+}
+
+.product_dirtyGold{
+    width:150px;
+    height:250px;
+    background-image:url(../../images/eng/corruption/product_d.jpg);
+    float:left;
+    margin-right:5px;
+    margin-left:5px;
+    margin-bottom: 15px;
+    font-size:11px;
+}
+
+.product_friends{
+    width:150px;
+    height:250px;
+    background-image:url(../../images/eng/corruption/product_f.jpg);
+    float:left;
+    margin-right:5px;
+    margin-left:5px;
+    margin-bottom: 15px;
+    font-size:11px;
+}
+
+.product_use{
+    width:150px;
+    height:250px;
+    background-image:url(../../images/eng/corruption/product_use.jpg);
+    float:left;
+    margin-right:5px;
+    margin-left:5px;
+    margin-bottom: 15px;
+    font-size:11px;
+}
+
+.title{
+    width:130px;
+    height: 30px;
+    text-align:center;
+    color:#ffffff;
+    font-weight:bold;
+    margin-top:13px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.stade_img{
+    margin-left:14px;
+    margin-top:3px;
+}
+
+.price{
+width:100px;
+margin-top: 13px;
+margin-left:30px;
+color:#ffffff;
+font-weight:bold;
+text-align:center;
+}
+
+
+
+.level{
+width:100px;
+margin-top: 13px;
+margin-left:30px;
+color:#ffffff;
+font-weight:bold;
+text-align:center;
+
+}
+
+
+
+.capacity{
+width:100px;
+margin-top: 13px;
+margin-left:30px;
+color:#ffffff;
+font-weight:bold;
+text-align:center;
+
+}
+
+
+.description{
+    width:150px;
+
+}
+
+
+
+.description p{
+    text-align:center;
+    color:#ffffff;
+    font-weight:bold;
+}
+
+.title_use{
+    width:130px;
+    text-align:center;
+    color:#ffffff;
+    font-weight:bold;
+    margin-top:13px;
+    margin-left:auto;
+    margin-right: auto;
+    height: 30px;
+}
+
+.stade_img_use{
+    margin-left:14px;
+    margin-top:3px;
+}
+
+.quantity_use{
+width:100px;
+margin-top: 12px;
+margin-left:30px;
+color:#ffffff;
+font-weight:bold;
+text-align:center;
+}
+
+
+
+.capacity_use{
+width:100px;
+margin-top: 21px;
+margin-left:30px;
+color:#ffffff;
+font-weight:bold;
+text-align:center;
+
+}
+
+.use_button{
+    margin-top: 15px;
+    background-image:url(../../images/eng/corruption/bouton_use.png);
+    width:100px;
+    height:20px;
+    margin-left: 30px;
+    cursor:pointer;
+}
+
+.use_button:hover{
+    margin-top: 16px;
+}
+
+.buy_button{
+    margin-top: 8px;
+    background-image:url(../../images/eng/corruption/bouton_buy.png);
+    width:100px;
+    height:20px;
+    margin-left: 30px;
+    cursor:pointer;
+}
+
+.buy_button:hover{
+    margin-top: 9px;
+}
+
+.sell_button{
+    margin-top: 8px;
+    background-image:url(../../images/eng/corruption/bouton_vendre.png);
+    width:100px;
+    height:20px;
+    margin-left: 30px;
+    cursor:pointer;
+}
+
+.sell_button:hover{
+    margin-top: 9px;
+}
+
+.get_dirty_gold{
+    margin-top: 8px;
+    background-image:url(../../images/eng/corruption/bouton_plus_de.png);
+    width:100px;
+    height:20px;
+    margin-left: 30px;
+    cursor:pointer;
+}
+
+.get_dirty_gold:hover{
+    margin-top: 9px;
+
+}
+
+
+.locked{
+    margin-top: 8px;
+    background-image:url(../../images/eng/building/bouton_locked.png);
+    width:100px;
+    height:20px;
+    margin-left: 30px;
+    cursor:pointer;
+}
+
+.locked:hover{
+    margin-top: 9px;
+
+}
+
+.friends_button{
+    margin-top: 8px;
+    background-image:url(../../images/eng/corruption/bouton_amis_3.png);
+    width:100px;
+    height:20px;
+    margin-left: 30px;
+    cursor:pointer;
+}
+
+.friends_button:hover{
+    margin-top: 9px;
+
+}
+
+#form_buy_match{
+    width:350px;
+    padding-top:0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#form_buy_match img{
+    margin-bottom: -5px;
+
+}
+
+.buy_match_button{
+    margin-top: 8px;
+    background-image:url(../../images/eng/corruption/bouton_proposer.png);
+    width:100px;
+    height:20px;
+    margin-left: 30px;
+    cursor:pointer;
+}
+
+
+#comment_offer{
+margin-left:auto;
+margin-left:auto;
+width:455px;
+color:#626262;
+text-align: center;
+}
+
+#comment_offer img{
+margin-bottom:-5px;
+}
+
+#accept{
+
+}
+
+.corruption_accepted_button{
+    float:left;
+    margin-top: 8px;
+    background-image:url(../../images/eng/corruption/bouton_accepter.png);
+    width:100px;
+    height:20px;
+    margin-left: 110px;
+    cursor:pointer;
+}
+
+#refuse{
+
+}
+
+.corruption_refused_button{
+    float:left;
+    margin-top: 8px;
+    background-image:url(../../images/eng/corruption/bouton_refuser.png);
+    width:100px;
+    height:20px;
+    margin-left: 30px;
+    cursor:pointer;
+}
+
+.input_invisible {
+    border: solid black 0px;
+    background-color: transparent;
+}
+
+#bonus_top{
+    background-image:url(../../images/eng/corruption/bonus_top.png);
+    width:190px;
+    height:36px;
+}
+
+#bonus_center{
+    background-image:url(../../images/eng/corruption/bonus_center.png);
+    width:190px;
+    background-repeat:repeat-y;
+    overflow:hidden;
+}
+
+#bonus_bottom{
+    background-image:url(../../images/eng/corruption/bonus_bottom.png);
+    width:190px;
+    height:20px;
+}
+
+#next_match_bonus{
+
+    position:relative;
+    width:700px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.next_match_bonus_opponent{
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    width:480px;
+    height:70px;
+    background-image:url(../../images/eng/corruption/match.png);
+
+}
+
+.next_match_bonus_opponent ul{
+    padding-top:30px;
+    margin-left:62px;
+    width:350px;
+    overflow:auto;
+}
+
+.next_match_bonus_opponent li{
+
+    float: left;
+    list-style: none;
+    color:#ffffff;
+    font-size:14px;
+    font-weight: bold;
+}
+
+#home_team{
+    width:120px;
+    text-align: center;
+}
+
+#away_team{
+    width:120px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.delete_bonus{
+    float:left;
+    width:16px;
+    height:16px;
+    background-image:url(../../images/eng/global/delete_player.png);
+    cursor:pointer;
+}
+
+.title_product{
+    float:left;
+
+}
+
+.product{
+    width:200px;
+    margin-left:5px;
+}
+
+#submit_feedback{
+    padding: 30px;
+    text-align:center;
+}

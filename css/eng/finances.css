@@ -1,0 +1,222 @@
+/* CSS Document */
+*{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+margin:0;
+padding:0;
+}
+
+body{
+background-color:#151515;
+/*background-image:url(../images/global/bg.jpg);*/
+background-repeat:repeat;
+
+}
+
+#conteneur{
+width:1024px;
+margin-left:auto;
+margin-right:auto;
+}
+
+#header{
+
+width:1024px;
+height:157px;
+background-image:url(../images/global/header.jpg);
+
+}
+
+#header ul{
+
+margin-left:230px;
+
+}
+
+#header li{
+float:left;
+margin-left:30px;
+margin-top:5px;
+list-style:none;
+}
+
+#header li:hover{
+margin-top:7px;
+
+}
+
+#header li a{
+font-size:11px;
+color:#ffffff;
+}
+
+#left_menu{
+ width:150px;
+ float:left;
+
+}
+
+#left_menu li{
+list-style:none;
+}
+
+
+#effectif{
+ float:left;
+ width:452px;
+ overflow:auto;
+}
+
+#effectif h1{
+ font-size:16px;
+ color:#ffffff;
+ font-weight:bold;
+ width:452px;
+ text-align:center;
+ padding-top:15px;
+}
+
+#effectif_top{
+ width:450px;
+ height:51px;
+ background-image:url(../images/global/effectif_top.jpg);
+ 
+}
+
+#effectif_center{
+ width:450px;
+ background-image:url(../images/global/effectif_center.jpg);
+ background-repeat:repeat-y;
+}
+
+
+
+#effectif_bottom{
+ width:450px;
+ height:21px;
+ background-image:url(../images/global/effectif_bottom.jpg);
+}
+
+#effectif_center table{
+    font-size:12px;
+    color:#ffffff;
+    margin-left:30px;
+}
+
+#effectif_center table th{
+    padding:5px;
+    color:#cd8f0b;
+}
+
+#effectif_center table td{
+   text-align:center;
+}
+
+#composition{
+     float:left;
+     width:560px;
+     overflow:auto;
+}
+#composition h2{
+     width:560px;
+     text-align:center;
+     font-size:16px;
+     color:#ffffff;
+     font-weight:bold;
+     padding-top:15px;
+}
+
+#composition_top{
+    width:560px;
+    height:51px;
+    background-image:url(../images/global/composition_top.jpg);
+}
+
+#composition_center{
+    width:560px;
+    overflow:hidden;
+    background-image:url(../images/global/composition_center.jpg);
+    background-repeat:repeat-y;
+    
+}
+
+#composition_bottom{
+    width:560px;
+    height:21px;
+    background-image:url(../images/global/composition_bottom.jpg);
+}
+
+#team_tactic{
+    float:left;
+    width:300px;
+    height:440px;
+    margin-top:10px;
+}
+
+#team_tactic select{
+    margin-left:128px;
+    margin-top:5px;
+}
+
+#football_field{
+    width:272px;
+    height:403px;
+    background-image:url(../images/field/football_field.jpg);
+    margin-left:20px;
+    margin-top:10px;
+    
+}
+
+#team_sheet{
+    float:left;
+    border-left:dashed 1px #ffffff;
+    min-height:435px;
+    margin-top:10px;
+    overflow:auto;
+}
+
+#team_sheet select{
+    margin-left:10px;
+
+}
+
+.player{
+    width:240px;
+    height:50px;
+    background-image:url(../images/global/player.jpg);
+}
+
+.delete_player{
+    float:left;
+    width:16px;
+    height:16px;
+    background-image:url(../images/global/delete_player.png);
+    cursor:pointer;
+    margin-top:20px;
+    margin-left:10px;
+}
+.name_player{
+    float:left;
+    margin-top:20px;
+    width:150px;
+    font-size:12px;
+}
+.position_player{
+    float:left;
+    margin-top:20px;
+    font-size:12px;
+    width:15px;
+}
+
+.shirt_player{
+    float:left;
+    font-size:12px;
+    margin-top:12px;
+    margin-left:10px;
+    width:37px;
+    text-align:center;
+}
+
+.input_invisible {
+    border: solid black 0px;
+    background-color: transparent;
+}

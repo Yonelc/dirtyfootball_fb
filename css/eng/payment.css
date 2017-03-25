@@ -1,0 +1,213 @@
+.prix{
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:8px;
+    width:250px;
+    overflow:hidden;
+}
+
+.cadre_prix{
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    background-image:url(../../images/eng/payment/cadre_prix.jpg);
+    width:250px;
+    height:30px;
+    overflow:hidden;
+
+}
+
+
+
+.value_radio{
+   float:left;
+   margin-left:5px;
+   /*width:15px;*/
+}
+
+.value_dirtygold{
+   float:left;
+   width:25px;
+}
+
+.value_logo{
+   float:left;
+   width:50px;
+   margin-top:-8px;
+}
+
+.value_price{
+   float:left;
+   width:80px;
+}
+
+.value_payment{
+   float:left;
+   margin-top:-4px;
+   /*width:15px;*/
+}
+
+#rentabiliweb{
+
+   position:relative;
+   margin-left:auto;
+   margin-right:auto;
+   width:580px;
+
+}
+
+#allopass{
+
+   position:relative;
+   margin-left:auto;
+   margin-right:auto;
+   width:700px;
+
+}
+
+#choose_country{
+   position:relative;
+   margin-left:auto;
+   margin-right:auto;
+   width:400px;
+   overflow:auto;
+}
+
+#payment_cadre_haut{
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    background-image:url(../../images/eng/payment/payment_cadre_haut.jpg);
+    width:600px;
+    height:85px;
+}
+
+#payment_cadre_centre{
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    background-image:url(../../images/eng/payment/payment_cadre_centre.jpg);
+    width:600px;
+    background-repeat: repeat-y;
+    overflow:hidden;
+}
+
+#payment_cadre_bas{
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    background-image:url(../../images/eng/payment/payment_cadre_bas.jpg);
+    width:600px;
+    height:62px;
+}
+
+#payment_allopass_cadre_haut{
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    background-image:url(../../images/eng/payment/payment_allopass_cadre_haut.jpg);
+    width:700px;
+    height:97px;
+}
+
+#payment_allopass_cadre_centre{
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    background-image:url(../../images/eng/payment/payment_allopass_cadre_centre.jpg);
+    width:700px;
+    background-repeat: repeat-y;
+    overflow:hidden;
+}
+
+#payment_allopass_cadre_bas{
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    background-image:url(../../images/eng/payment/payment_allopass_cadre_bas.jpg);
+    width:700px;
+    height:70px;
+}
+
+/*#choose_price{
+   position:relative;
+   margin-left:auto;
+   margin-right:auto;
+   width:300px;
+   overflow:auto;
+}*/
+
+#price_list{
+    width:600px;
+    overflow:hidden;
+       position:relative;
+   margin-left:auto;
+   margin-right:auto;
+   margin-top:30px;
+}
+
+#countries_list{
+    width:600px;
+    overflow:auto;
+    position:relative;
+   margin-left:auto;
+   margin-right:auto;
+}
+
+
+
+
+
+#label_pays{
+
+    float:left;
+
+}
+
+#list_pays{
+
+    float:left;
+
+}
+
+.buy_button{
+    margin-top: 8px;
+    background-image:url(../../images/eng/building/bouton_buy.png);
+    width:100px;
+    height:20px;
+    margin-left: 250px;
+    cursor:pointer;
+}
+
+.input_invisible {
+    border: solid black 0px;
+    background-color: transparent;
+}
+
+#outil_conversion{
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    width:250px;
+}
+
+#taux{
+    margin-bottom:10px;
+}
+
+.conversion_button{
+    margin-top: 8px;
+    background-image:url(../../images/eng/payment/bouton_convertir.png);
+    width:100px;
+    height:20px;
+    margin-left: 50px;
+    cursor:pointer;
+}
+
+#sponsorpayment{
+    width:400px;
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+}
